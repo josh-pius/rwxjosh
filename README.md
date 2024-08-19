@@ -1,18 +1,12 @@
-# Quartz v4
+# Learn In Public
+On the off-chance that anyone else is reading this. Hi. I'm Josh. As a passionate autodidact I love to learn and I take a lot of notes about a lot of things under the sun.
+My habit has led me to accumulate many 1000s of markdown notes. While you won't find all of them here, you will however find a curated subset that I'm comfortable enough to make available on the internet.
+The goal behind all this is to start [Learning in public](https://www.swyx.io/learn-in-public). 
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+### Publishing My Notes
+For publishing my notes I use Quartz. Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+These notes are hosted on Github Pages (for now)
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
