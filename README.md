@@ -4,7 +4,7 @@ My habit has led me to accumulate many 1000s of markdown notes. While you won't 
 The goal behind all this is to start [Learning in public](https://www.swyx.io/learn-in-public). 
 
 
-### Publishing My Notes
+## Publishing My Notes
 For publishing my notes I use Quartz. Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
 These notes are hosted on Github Pages (for now)
 
