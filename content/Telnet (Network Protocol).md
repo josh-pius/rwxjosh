@@ -1,0 +1,3 @@
+- Telnet is an old network protocol that is used to connect to remote systems over a TCP/IP network. It connects to servers and network equipment over port 23.
+- Telnet is not a secure protocol and is thus **NOT RECOMMENDED!**. This is because data sent over the protocol is unencrypted and can be intercepted by hackers.
+- Instead of using telnet, a more preferred protocol to use is [[SSH Protocol (Computer Security)]] which is encrypted and more secure
