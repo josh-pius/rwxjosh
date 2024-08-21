@@ -2,6 +2,10 @@
 cd ./content
 sed -i '/### Notes/,$d' index.md
 echo "### Notes" >> index.md
+printf "Count: " >> index.md
+ls \
+| sed '/index.md/d' \
+| wc -l >> index.md
 
 ls \
 | sort -t '(' -k3,3n -k2,2r \
