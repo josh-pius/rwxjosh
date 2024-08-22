@@ -14,5 +14,3 @@ verify(this.someService).someMethod(captor.capture());
 captor.getValue()
 
 ```
-
-Test String
