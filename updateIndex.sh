@@ -1,8 +1,8 @@
 #!/bin/bash
 cd ./content
 sed -i '/### Notes/,$d' index.md
-echo "### Notes" >> index.md
-printf "Count: " >> index.md
+echo "### Statistics" >> index.md
+printf "- Total Notes Count: " >> index.md
 ls \
 | sed '/index.md/d' \
 | wc -l >> index.md
@@ -27,7 +27,7 @@ echo "Linux Commands.md" \
 echo "### CLI Utilities" > "CLI Utilities.md"
 
 ls \
-| grep "(CLI Utilities)"\
+| grep -e "(CLI Utilities)" -e "(VIM)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
@@ -45,7 +45,7 @@ echo "CLI Utilities.md" \
 echo "### Mathematics" > "Mathematics.md"
 
 ls \
-| grep -e "(Mathematics)" -e "(Linear Algebra)" \
+| grep -e "(Mathematics)" -e "(Linear Algebra)" -e "(Statistics)" -e "(Probability)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
@@ -58,6 +58,23 @@ echo "Mathematics.md" \
 | sed 's/.*/- [[&]]/' \
 >> index.md
 
+
+### Operating Systems
+echo "### Operating Systems" > "Operating Systems.md"
+
+ls \
+| grep -e "(OS Concept)" -e "(OS)" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Operating Systems.md"
+
+echo "### Operating Systems" >> index.md
+echo "Operating Systems.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
 
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
