@@ -1,0 +1,188 @@
+### Old Notes Transcribe
+- Internus ([[Latin (Language)]]) - Inside
+- Gyne ([[Greek (Language)]]) - Woman
+- Logos - Science, logic
+	- Eg
+		- Gynecologist (adjective Gynecological)
+- Obstetrix ([[Latin (Language)]]) - Midwife
+	- "-ician" - Expert
+	- Eg
+		- Obstetrician
+- Paidos ([[Greek (Language)]]) - Child
+- iatreia ([[Greek (Language)]]) - medical healing
+	- Example
+		- Pediatrician
+- Pedia - Feet
+	- Ped-
+		- Pedestal, pedal, pedestrian
+- Agogos - Leading
+	- Example
+		- Pedagogue - Meant Teacher originally, now means narrow-minded, strait-laced, dogmatic
+- Demos - People
+	- Example
+		- Demagogue = People  + Leader
+			- Now means someone who misleads people, wild orator
+- Derma ([[Greek (Language)]]) - Skin
+	- Example
+		- Dermatitis - General term meaning
+- Hypo - Under
+	- Example
+		- Hypodermic needle - under the skip
+		- Epidermis - Outer layer of the skin
+		- Taxidermist- Whose business is [[Taxidermy]]
+		- Pachyderm - Animal with unusually thick skin like hippopotamus, rhinoceros
+- Opthalmos ([[Greek (Language)]]) - Eye
+- Metron ([[Greek (Language)]]) - Measure
+	- Metric System - Decimal system of weights and measures
+- Oculus ([[Latin (Language)]]) - Eye
+	- Adjective (Oculus): Ocular - Pertaining to the eye
+	- Example
+		- Monocle - Lens for one eye (used by upper british)
+		- Binocular - Increases the range of two eyees
+		- Inoculate - An injection
+		- Optician
+			- Grind lenses according to prescription and specification (does not examine)
+- Therme - Heat
+- Optikos/Opsis ([[Greek (Language)]])
+	- Example
+		- Thermometer
+		- Optometrists/Optometry - 
+			- Measure vision
+			- Test for glaucome
+			- Prescribe and fit glasses
+			- Cannot prescribe drugs  or do surgery(not an [[Ophthalmology (Medical Field)|Opthalmologist]])
+- Peri - Around
+- Odontos - Teeth
+	- Example
+		- Pedodontics = Paido + Odontos 
+		- Periodontics = Peri + Odontos - Speciality of gums, which surround teeth
+		- Endodontist = Endon (inside, within) + Odontos (teeth) = Speciality of the tooth and root canal therapy
+		- Exodontics = Ex (out) + odontos (teeth)- Speciality of extracting teeth
+- Orthos - Straight or correct
+	- Example
+		- Orthopedist - Straighten a child's bones
+		- Orthodontia - Straightening of the teeth
+- Pathos - Disease or suffering
+- Psyche - Mind
+	- Example
+		- Psyche + Pathos - Suffering from disease = Psychopathic
+- Soma - Body
+	- Example
+		- Psyche + Soma  = Psychosomatic The effect of mind on the body
+- Baros  - Weight
+	- Barometer = Baros + Metron = Measures atmospheric pressure
+-  Sphygmos - Pulse
+	- Sphygmomanometer- Used to measure blood pressure
+- Osteon - Bone
+	- Osteopath = Osteon + Pathos
+- Pous, Podos - Foot
+	- Podiatry = Treatment of minor ailments of the foot
+	- Podium = Podos + -ium (Place where)
+	- Tripod = Tri (three) + pous
+	- Chiropodist - Practitioner of chiropody
+- Okto  - Eight
+	- Octopus - Okto + Pous
+- Cheir - Hand
+	- Chiropodist = Cheir + Podos (earlier name for podiatrist)
+- Platys - Broad/flat
+	- Platypus - Platys + Pous (Flatfoot, creature)
+- -mancy - Fortelling/prediction
+	- Chiromancy = Hand+ fortelling i.e palm-reading
+- Kardia - Heart
+- Photo - Light
+	- Photography
+- Tele - Distance
+- Bios - Life
+- Graphein - To Write
+	- Graphologist -Analyzes handwriting
+	- Chirography - Dead Art. The art of practice of handwriting
+	- Cardiograph = Kardia  + Graphein
+	- Photograph = Photo + graphein
+	- Telegraph = Tele + Graphein
+	- Biography = Bios (life) + Graphein (writing)
+- Pyge - buttocks
+- -escent - Growing/ becoming
+- Kallos - Beautiful
+	- Calligraphy - Artistic writing
+	- Callipygian - Shapely or attractive rear end
+- Kakos - Bad, harsh
+	- Cacaphony
+- Geras ([[Greek (Language)]]) - Old Age
+	- [[Geriatrics (Medical Field)|Geriatrician]] - The medial care of the elderly
+- Geron ([[Greek (Language)]]) - Old man
+	- Gerontologist - The one who does scientific studies of the aging, multidisciplinary includes aspects of medicine psychology, sociology etc
+- Senex ([[Latin (Language)]]) - Old 
+	- Senile - Showing signs of physical and metal deterioration as part of old age
+	- Senior
+	- Senate - A council of older presumably wiser citizens
+	- Senescent - Aging, Growing old
+	- Adolescent - Growing into an adult
+	- Convalescent - Growing healthy again
+	- Obsolescent - Becoming obsolete
+- Anthropos - Mankind
+- Logos - Science
+	- [[Astrology (Pseudoscience)]] - Pseudoscience Influence of starts on human events
+- Astron - Star
+	- Astrophysics - Branch of physics dealing with heavenly bodies
+- Auto - Self
+	- Autopsy - The surgeon pathologist examines the body themselves than simply theorizing and try to discover the cause of death
+- Nomos - Arrangement, law, order
+	- Autonomy - Self law
+	- Metronome - Metron + Nomos - Governs order and timing of the player
+- Aster - Star shaped flower
+	- Asterisk `*`
+- Naus - Ship
+- Nautes - Sailor
+	- Astronaut = Astron (Star) + Nautes
+	- Cosmonaut = Cosmos (Universe) + Nautes
+	  - Nautical - Pertaining to the sailors, sailing ships
+- Dis - (multiple meanings, here it means against )
+	- Disaster = Dis-  + Astron
+- Ergon - Work
+- Geo - Earth
+	- Geometry = Geo + Metron
+	- George - Geo + Ergon (work) = Earth-worker = Farmer
+- Bios - Life
+	- Bios + Opsis (Vision)
+- Botane - Plant
+- Zoion - Animal
+	- Zoo - Short for zoological gardens
+	- Zodiac - Used in [[Astrology (Pseudoscience)]]
+		- Scorpio- Scorpion
+		- Leo - Lion
+		- Cancer - Crab
+		- Taurus - Bull
+		- Aries - Ram
+		- Pisces - Fish
+- Endon ([[Greek (Language)]])- Inside
+- Tome ([[Greek (Language)]])- Cutting
+	- Entomology - En (in) + tome (cut) + logos (science) - The insect body appears to be segmented i.e. "in-cutting" to the naked eye
+	- Tonsillectomy - Tonsil + Ec- (out) + Tome (cut) + -y
+	- Appendectomy - Appendix
+	- Mastectomy - Breast
+	- Hysterectomy - Uterus
+	- Prostatectomy - Prostate
+	- Tome - Originally a part from a larger work of many volumes, a part cut form the whole, today a large heavy dull boring book
+- ex- ([[Latin (Language)]]) / ec- ek- ([[Greek (Language)]]) - Out
+- (in-) [[Latin (Language)]] - in
+- Sectus ([[Latin (Language)]]) - Cut
+- Kentron ([[Greek (Language)]])- Center 
+	- Eccentric = Ec- (out) + kentron (center) = Literally "out of the center" or out of the norms and conventions of normal human behavior
+- a- - Negative
+	- Atom - A- (not) + tome (cut, cuttable) = unsplit-able
+	- Anatomy = Ana (up) + tome (cut) = Basically means to cut up the bodies of plants and animals later used to describe the body structure itself
+- Dicha- - Two
+	- Dichotomy - (Dicha-)(two) + Tome (cut)
+	- To divide "cut" into two parts
+- Epi-  -On
+	- Epitome - Epi- (On) + tome (cut) - The idea to "cut on" to reach the crux of the matter or the condensation or abridgement
+		- More classically used to mean summary or condensation
+		- Eg. Give me the epitome of the speed or book
+		- Now used instead in "She is the epitome of kindness" (represents the cross-section of the whole)
+- Philein - Love
+	- Philology - Philein (love)+ Logos (words) aka lingustics
+	- Philanthropy - Philein + Anthropos (human)
+	- Philander - "Play around" sexually i.e. promiscuous eg. having extramarital affairs
+		- Philein (love) + Andros (Male) - not exclusively a male thing though
+- Lingua - Tongue
+- WIP...
