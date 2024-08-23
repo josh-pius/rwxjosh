@@ -1,0 +1,11 @@
+### Linux Commands
+- [[Fc (Linux Command)]]
+- [[Mktemp (Linux Command)]]
+- [[Systemctl (Linux Command)]]
+- [[Tee (Linux Command)]]
+- [[Tr (Linux Command)]]
+- [[fg (Linux Command)]]
+- [[ls (Linux Command)]]
+- [[strace (Linux Command)]]
+- [[tree (Linux Command)]]
+- [[wc (Linux Command)]]
