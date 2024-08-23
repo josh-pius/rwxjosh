@@ -6,11 +6,15 @@ Hi, I'm Josh, a software engineer working in FinTech and this site is dedicated 
 . This site is primarily for myself, and provides me a platform for sharing the things I'm learning and  working on at the moment.
 
 
-### Notes
-Count: 109
+### Notes Statistics
+- Total Notes Count: 110
 ### Linux Commands
 - [[Linux Commands]]
 ### CLI Utilities
 - [[CLI Utilities]]
 ### Mathematics
 - [[Mathematics]]
+### Operating Systems
+- [[Operating Systems]]
+### Finance
+- [[Finance]]

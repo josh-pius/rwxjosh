@@ -1,8 +1,8 @@
 #!/bin/bash
 cd ./content
-sed -i '/### Notes/,$d' index.md
-echo "### Statistics" >> index.md
-printf "- Total Notes Count: " >> index.md
+sed -i '/### Notes Statistics/,$d' index.md
+echo "### Notes Statistics" >> index.md
+printf -- '- Total Notes Count: ' >> index.md
 ls \
 | sed '/index.md/d' \
 | wc -l >> index.md
@@ -75,6 +75,26 @@ echo "Operating Systems.md" \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
 >> index.md
+
+### Finance
+echo "### Finance" > "Finance.md"
+
+ls \
+| grep -e "(Finance)" -e "(Portfolio Management)" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Finance.md"
+
+echo "### Finance" >> index.md
+echo "Finance.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
+
+
 
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
