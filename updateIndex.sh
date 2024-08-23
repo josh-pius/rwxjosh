@@ -94,6 +94,22 @@ echo "Finance.md" \
 >> index.md
 
 
+### Books
+echo "### Books" > "Books.md"
+
+ls \
+| grep -e "(Book)" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Books.md"
+
+echo "### Books" >> index.md
+echo "Books.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
 
 
 # ls \
