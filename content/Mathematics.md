@@ -13,6 +13,7 @@
 - [[Random Vector (Probability)]]
 - [[Arg Max (Mathematics)]]
 - [[Arg Min (Mathematics)]]
+- [[Convex Optimization (Mathematics)]]
 - [[Eulerian Number (Mathematics)]]
 - [[Factors (Mathematics)]]
 - [[Linear Algebra (Mathematics)]]
