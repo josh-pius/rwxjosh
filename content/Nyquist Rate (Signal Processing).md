@@ -1,0 +1,1 @@
+>In signal processing, the Nyquist rate, named after Harry Nyquist, **specifies a sampling rate (in units of samples per second or hertz, Hz) equal to twice the highest frequency (bandwidth) of a given function or signal**.

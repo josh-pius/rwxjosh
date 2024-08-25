@@ -6,39 +6,25 @@ printf -- '- Total Notes Count: ' >> index.md
 ls \
 | sed '/index.md/d' \
 | wc -l >> index.md
-# Linux Commands
-echo "### Linux Commands" > "Linux Commands.md"
+
+
+### Books
+echo "### Books" > "Books.md"
 
 ls \
-| grep "(Linux Command)"\
+| grep -e "(Book)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
->> "Linux Commands.md"
+>> "Books.md"
 
-echo "### Linux Commands" >> index.md
-echo "Linux Commands.md" \
+echo "### Books" >> index.md
+echo "Books.md" \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
 >> index.md
 
-### CLI Utilities
-echo "### CLI Utilities" > "CLI Utilities.md"
-
-ls \
-| grep -e "(CLI Utilities)" -e "(VIM)" \
-| sort -t '(' -k3,3n -k2,2r \
-| sed '/index.md/d' \
-| sed 's/.md//g'  \
-| sed 's/.*/- [[&]]/' \
->> "CLI Utilities.md"
-
-echo "### CLI Utilities" >> index.md
-echo "CLI Utilities.md" \
-| sed 's/.md//g'  \
-| sed 's/.*/- [[&]]/' \
->> index.md
 
 
 ### Mathematics
@@ -76,6 +62,57 @@ echo "Operating Systems.md" \
 | sed 's/.*/- [[&]]/' \
 >> index.md
 
+### VIM
+echo "### VIM" > "VIM.md"
+
+ls \
+| grep -e "(VIM)" -e "(Portfolio Management)" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "VIM.md"
+
+echo "### VIM" >> index.md
+echo "VIM.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
+# Linux Commands
+echo "### Linux Commands" > "Linux Commands.md"
+
+ls \
+| grep "(Linux Command)"\
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Linux Commands.md"
+
+echo "### Linux Commands" >> index.md
+echo "Linux Commands.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
+### CLI Utilities
+echo "### CLI Utilities" > "CLI Utilities.md"
+
+ls \
+| grep -e "(CLI Utilities)" -e "(VIM)" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "CLI Utilities.md"
+
+echo "### CLI Utilities" >> index.md
+echo "CLI Utilities.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
 ### Finance
 echo "### Finance" > "Finance.md"
 
@@ -92,25 +129,6 @@ echo "Finance.md" \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
 >> index.md
-
-
-### Books
-echo "### Books" > "Books.md"
-
-ls \
-| grep -e "(Book)" \
-| sort -t '(' -k3,3n -k2,2r \
-| sed '/index.md/d' \
-| sed 's/.md//g'  \
-| sed 's/.*/- [[&]]/' \
->> "Books.md"
-
-echo "### Books" >> index.md
-echo "Books.md" \
-| sed 's/.md//g'  \
-| sed 's/.*/- [[&]]/' \
->> index.md
-
 
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
