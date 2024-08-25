@@ -66,7 +66,7 @@ echo "Operating Systems.md" \
 echo "### VIM" > "VIM.md"
 
 ls \
-| grep -e "(VIM)" -e "(Portfolio Management)" \
+| grep -e "(VIM)"  \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
