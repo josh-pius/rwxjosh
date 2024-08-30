@@ -130,6 +130,24 @@ echo "Finance.md" \
 | sed 's/.*/- [[&]]/' \
 >> index.md
 
+
+### Programming Language
+echo "### Programming Language" > "Programming Language.md"
+
+ls \
+| grep -e "(Programming Language)"  \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Programming Language.md"
+
+echo "### Programming Language" >> index.md
+echo "Programming Language.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
 # | sed '/index.md/d' \

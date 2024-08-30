@@ -1,4 +1,5 @@
 ### Mathematics
+- [[Cointegration (Statistics)]]
 - [[Covariance (Statistics)]]
 - [[Gamma Distribution (Statistics)]]
 - [[Kalman Filter (Statistics)]]

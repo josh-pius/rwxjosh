@@ -1,4 +1,4 @@
-### CLI Utilities
+### VIM
 - [[Args List (VIM)]]
 - [[Auto (VIM)]]
 - [[Buffers (VIM)]]
