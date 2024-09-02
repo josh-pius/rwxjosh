@@ -16,7 +16,7 @@ Source: https://youtu.be/MwVBzE7Z5gw?si=XgbT5uuWRZ7TH-r7 by [[Math the World (Yo
 
 ### Substitution Method
 > [!Formula] 
-$\int{{f\left( {g\left( x \right)} \right)\,g'\left( x \right)\,dx}} = \int{{f\left( u \right)\,du}},\hspace{0.25in}{\mbox{where, }}u = g\left( x \right)$
+>$\int{{f\left( {g\left( x \right)} \right)\,g'\left( x \right)\,dx}} = \int{{f\left( u \right)\,du}},\hspace{0.25in}{\mbox{where, }}u = g\left( x \right)$
 
 
 - Example: $\int e^{-x}dx$
