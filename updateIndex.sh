@@ -31,7 +31,7 @@ echo "Books.md" \
 echo "### Mathematics" > "Mathematics.md"
 
 ls \
-| grep -e "(Mathematics)" -e "(Linear Algebra)" -e "(Statistics)" -e "(Probability)" \
+| grep -e "(Mathematics)" -e "(Linear Algebra)" -e "(Statistics)" -e "(Probability)" -e "(Set Theory)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
