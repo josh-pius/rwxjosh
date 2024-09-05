@@ -148,6 +148,27 @@ echo "Programming Language.md" \
 | sed 's/.*/- [[&]]/' \
 >> index.md
 
+
+
+
+### Regex
+echo "### Regex" > "Regex.md"
+
+ls \
+| grep -e "(Regex)" -e "(regex)"  \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Regex.md"
+
+echo "### Regex" >> index.md
+echo "Regex.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
+
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
 # | sed '/index.md/d' \
