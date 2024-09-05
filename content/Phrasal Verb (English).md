@@ -1,0 +1,12 @@
+### General
+- In the traditional grammar of Modern English, a phrasal verb typically constitutes a single semantic unit composed of a verb followed by a particle
+	- Example
+		- Break down
+		- Call off
+		-  Put off
+		- Calm down
+		- Look forward to
+		- Hang up
+		- Hold on
+		- Get over
+- Very popular in casual speech
