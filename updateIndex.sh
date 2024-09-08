@@ -100,7 +100,7 @@ echo "Linux Commands.md" \
 echo "### CLI Utilities" > "CLI Utilities.md"
 
 ls \
-| grep -e "(CLI Utilities)" -e "(VIM)" \
+| grep -e "(CLI Utility)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
