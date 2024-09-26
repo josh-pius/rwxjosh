@@ -66,7 +66,7 @@ echo "Operating Systems.md" \
 echo "### VIM" > "VIM.md"
 
 ls \
-| grep -e "(VIM)"  \
+| grep -ie "(VIM)" -e "VIM (Editor)" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \

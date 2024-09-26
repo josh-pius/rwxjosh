@@ -11,3 +11,6 @@
 - [[Tabs (VIM)]]
 - [[Tags (VIM)]]
 - [[Window (VIM)]]
+- [[packpath (VIM)]]
+- [[runtimepath (VIM)]]
+- [[VIM (Editor)]]

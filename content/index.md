@@ -11,7 +11,7 @@ Each note grows organically, some of them are just empty placeholders for a conc
 
 
 ### Notes Statistics
-- Total Notes Count: 165
+- Total Notes Count: 231
 ### Books
 - [[Books]]
 ### Mathematics
@@ -28,3 +28,5 @@ Each note grows organically, some of them are just empty placeholders for a conc
 - [[Finance]]
 ### Programming Language
 - [[Programming Language]]
+### Regex
+- [[Regex]]

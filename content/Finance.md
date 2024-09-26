@@ -2,6 +2,7 @@
 - [[Multi-Factor Model (Portfolio Management)]]
 - [[Black-Scholes Model (Finance)]]
 - [[Markowitz Model (Finance)]]
+- [[Microfinance (Finance)]]
 - [[Negatively Amortizing Loan (Finance)]]
 - [[Private Placement (Finance)]]
 - [[Sharpe Ratio (Finance)]]
