@@ -1,7 +1,3 @@
---- aliases:
-  - Bash (Shell)
----
-
 ### General
 - One of the best [[Shell Interactivity (Command Line)|Interactive Shells]] because of how powerful it it is but bemoans how gplv3 has caused it to get used less 
 
