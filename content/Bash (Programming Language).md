@@ -1,10 +1,9 @@
----
-aliases:
+--- aliases:
   - Bash (Shell)
 ---
 
 ### General
-- Rwxrob (Youtuber)]] thinks it's one of the best [[Shell Interactivity (Command Line)|Interactive Shells]] because of how powerful it it is but bemoans how gplv3 has caused it to get used less 
+- One of the best [[Shell Interactivity (Command Line)|Interactive Shells]] because of how powerful it it is but bemoans how gplv3 has caused it to get used less 
 
 ### Bash Shebang
 - Regardless of what shell you're on (eg. zsh)
@@ -292,7 +291,7 @@ sudo mv ./myscript.sh /usr/local/bin/myscript
 # To prevent any other user overwriting script
 chown root:root /usr/local/bin/myscript
 ```
-- As per Rwxrob and based on what I'm seeing in [[Path (Linux)]] another location you can put commonly executed scripts in is `~/.local/bin`, this has the higest precedence in the path
+- Based on what I'm seeing in [[Path (Linux)]] another location you can put commonly executed scripts in is `~/.local/bin`, this has the higest precedence in the path
 
 ### Data Streams
 - There are three data streams in Linux systems: [[Stdin (Unix)]], [[Stdout (Unix)]] and [[Stderr (Unix)]]
@@ -317,8 +316,6 @@ echo $var
 	- The arguments passed in order are accessed using `$1`, `$2` etc
 	- The number of arguments passed is accessed via the `$#` variable
 	- `$@` and `$*` are used to reference all arguments passed to the function, with subtle differences in how they behave when quoted.
-		- [[Rwxrob (Youtuber)]] explains the difference here around 1:35:00 - 1:39:00 in this [video](https://www.youtube.com/live/1WzeKFSK6AM?si=iwFwECxd3Kp2kAhz)
-		- His `duck` script uses `$*` it makes a lot of sense why
 		- 
 - Return values
 	- A Bash function doesn't return values in the traditional programming sense. Instead, it returns an exit status (0 for success, non-zero for failure). Use `return` to exit a function with a specific status.
@@ -511,7 +508,7 @@ https://betterdev.blog/minimal-safe-bash-script-template/
 
 
 ### Scripting Best Practices
-1. Don't make scripts depend on other scripts, it makes them less portable according to [[Rwxrob (Youtuber)]]
+1. Don't make scripts depend on other scripts, it makes them less portable 
 2. Put the entire script in a function that way it's easier to copy and modify
 ```
 #!/bin/sh
@@ -522,7 +519,7 @@ greet () {
 }
 greet "$@"
 ```
-3. [[Rwxrob (Youtuber)]] prefers making small scripts their own files rather than put them in [[Bashrc (Config File)]]. The reason for this is portability. If you’re have to use [[Bourne Shell (sh)]] you can still call the stand alone scripts in the file but you can’t call bash specific functions or aliases defined in the [[Bashrc (Config File)]]
+3. Prefer making small scripts their own files rather than put them in [[Bashrc (Config File)]]. The reason for this is portability. If you’re have to use [[Bourne Shell (sh)]] you can still call the stand alone scripts in the file but you can’t call bash specific functions or aliases defined in the [[Bashrc (Config File)]]
 
 ### Escape Character
 - A non-quoted backslash `\` is the Bash escape character. It preserves the literal value of the next character that follows, with the exception of newline.
@@ -548,12 +545,12 @@ cat $'g\e\e"q'
 - You can also use `echo -e` or `printf` to have escape characters printed
 
 ### Colors
-- [[Rwxrob (Youtuber)]] has a useful script called `termcolors` in his dotfiles that print out a list of popular color ansi escape codes
+- A useful script called `termcolors` in can print out a list of popular color ansi escape codes
 - You can make a line a particular color using it
 ```
 printf "${yellow} This line is yellow ${reset}\n"
 ```
-- You can use the `colorstrip` script by Rob to see how many colors are supported in your terminal settings
+- You can use the `colorstrip` script to see how many colors are supported in your terminal settings
 
 ### Globbing
 [[Globbing (Bash)]]
