@@ -1,0 +1,3 @@
+### General
+- Text shaping is the process of translating a string of character codes (such as Unicode [[Code Point (Unicode)|code points]]) into a properly arranged sequence of glyphs that can be rendered onto a screen or into final output form for inclusion in a document.
+- The shaping process is dependent on the input string, the active font, the script (or writing system) that the string is in, and the language that the string is in.

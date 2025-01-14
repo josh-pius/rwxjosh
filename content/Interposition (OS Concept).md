@@ -6,5 +6,6 @@ Source: [[Operating Systems Three Easy Pieces (OSTEP) (Book)]]
 
 
 ### Transparency
+[[Transparency (Software)]]
 - Transparency in this context is different from it's usual meaning
 	- It maybe better to call it implementation hiding. For example, the process does not know about how the [[Address Translation (OS Concept)]] happens, the interface abstracts all that detail away

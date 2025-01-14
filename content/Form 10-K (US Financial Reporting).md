@@ -1,0 +1,3 @@
+### General
+- Form 10-K is a comprehensive report filed annually by a publicly traded company about its financial performance and is required by the U.S. [[Securities and Exchange Commission (SEC) (Regulator)]]. 
+- Some of the information a company is required to document in the 10-K includes its history, organizational structure, financial statements, earnings per share, subsidiaries, executive compensation, and any other relevant data.
