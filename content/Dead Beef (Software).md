@@ -1,0 +1,12 @@
+### General
+- `0xDEADBEEF` is a hexadecimal number that's used as a [[Magic Number (Software)]] in various software [[Operating System (OS)|Operating systems]]
+- **Marking uninitialized memory**
+	- 0xDEADBEEF was originally used to mark areas of [[Memory (Computer)|memory]] that had not yet been initialized. 
+- **Indicating software crashes**
+	- 0xDEADBEEF is often used to indicate a software crash or deadlock in embedded systems. 
+- **Finding memory changes**
+- 0xDEADBEEF can be used to fill the [[Static Random-Access Memory (SRAM)|SRAM]] memory of a microcontroller with a recognizable pattern. This can help identify memory changes, such as: 
+	- A [[Stack Overflow (Software)]]
+	- Code writing beyond the end of an array  
+	- A [[Buffer Overflow (Software)]]
+	- Writes to unexpected memory locations 
