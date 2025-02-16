@@ -1,0 +1,2 @@
+### General
+- In register-based architectures (e.g., [[x86 (CPU Architecture)]], [[arm (CPU Architecture)]]), values are stored in [[Register (Computer Hardware)|registers]] and memory. The compiler must perform liveness analysis to determine which values are still needed before overwriting registers.
