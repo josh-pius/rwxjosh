@@ -14,10 +14,11 @@ $$
 - $E[r_{M,t}] -r_f$ measures the difference between the expected market return and risk-free rate, known as the market premium
 - $E[r_{i,t}] -r_f$ measures the difference between the expected stock return and risk-free rate, known as the risk premium
 - $\beta_i$ is given by 
-	- $$
+ 
+ $$
 \beta_i=\frac{Cov(r_{i,t},r_{M,t})}{Var(r_{M,t})}
 $$
-	- It measures the sensitivity of the risk premium to the market premium
+- It measures the sensitivity of the risk premium to the market premium
 - Taking the variance on both sides gives us this relation
 $$
 Var[r_{i,t}] = \beta^2Var[r_{M,t}] + Var[w_{i,t}]
