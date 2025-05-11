@@ -5,7 +5,7 @@
 ### Examples
 Some examples of common sentinel values and their uses:
 
-- [[Null character (C Programming)]] for indicating the end of a null-terminated string.
+- [[NUL (ASCII Character)]] for indicating the end of a null-terminated string.
 - [[Null Pointer (C Programming)]] for indicating the end of a linked list or a tree.
 - A set most significant bit in a stream of equally spaced data values, for example, a set 8th bit in a stream of 7-bit ASCII characters stored in 8-bit bytes indicating a special property (like inverse video, boldface or italics) or the end of the stream.
 - A negative integer for indicating the end of a sequence of non-negative integers.
