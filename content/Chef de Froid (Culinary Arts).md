@@ -1,0 +1,2 @@
+### General
+- A Chef de Froid, also known as a Garde Manger, is a chef responsible for the preparation and presentation of cold dishes, including salads, charcuterie, appetizers, and some desserts. This role requires expertise in both savory and sweet cold preparations, emphasizing flavor, texture, and visual appeal.

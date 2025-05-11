@@ -1,0 +1,16 @@
+### General
+-  [[MyBatis (Java Library)]] seems to parse each mapper query and created various [[SqlNode (MyBatis)]]'s out of it
+- Such as 
+	- [[StaticTextSqlNode (MyBatis)]] - The simplest node with only text
+	- [[IfSqlNode (MyBatis)]]
+	- [[MixedSqlNode (MyBatis)]]
+	- [[ChooseSqlNode (MyBatis)]]
+	- [[ForEachSqlNode (MyBatis)]]
+	- [[SetSqlNode (MyBatis)]]
+	- [[TextSqlNode (MyBatis)]]
+	- [[TrimSqlNode (MyBatis)]]
+	- [[VarDecSqlNode (MyBatis)]]
+	- [[WhereSqlNode (MyBatis)]]
+- Each of these have an `apply()`  function
+	- Each also internally have a bunch of other types of nodes
+	- `apply()` is called recursively until [[StaticTextSqlNode (MyBatis)]] is reached at which point the text is appended to the final SQL
