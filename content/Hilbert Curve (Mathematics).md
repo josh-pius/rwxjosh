@@ -1,0 +1,7 @@
+### General
+- Mathematicians use the term "curve" to talk about a line running through space even if it has jagged corners
+- [[3Blue1Brown (Youtuber)]] providing an intuition and visualization for this topic
+	- https://youtu.be/3s7h2MHQtxc?si=iB3CCN8SQ5AbhPU-
+	- In the video the motivation for this kind of math is to find a way to "hear" a picture by translating pixels to frequencies, the challenge is that frequences are just one dimensional but a picture has two dimensions. To translate the picture's pixels to the one-dimensional frequencies you could just draw a line with through every pixel, the problem here is that if the pixels every increase the frequence correponding to the pixel would change drastically but instead if you used a hilbert curve, the more pixels you added the closer it gets
+	- The original reason this math was invented was to find a mapping from one-dimensional line to 2-dimensional space
+	- The "hilbert curves" that are commonly visualized are actually pseudo-hilbert curves, if you zoom in enough you'll see that the curve only passes through a tiny area of the square and doens't even hit every point. An acutal [[Hilbert Curve (Mathematics)]] is the [[Limit (Mathematics)]] as  $n \rightarrow \infty$ of a pseudo-hilbert curve ($PHC_n$)
