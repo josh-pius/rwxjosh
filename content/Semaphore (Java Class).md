@@ -1,0 +1,76 @@
+Source: https://www.youtube.com/watch?v=shH38znT_sQ
+### General
+- See [[Semaphore (Computer Science)]] 
+- Semaphore is a variable or abstract data type used to control access to a common resource by multiple threads and avoid critical section problems in a concurrent system such as a multitasking operating system. 
+- A semaphore is basically a permit machine
+	- It has a fixed number of permits
+	- Each thread coming to it **acquires** a permit uses the resource and **releases** the permit to make it available to the next thread
+	- If a thread come to the semaphore and there are no permits available the thread is blocked at that point until a permit becomes available
+
+
+### Application
+- Say we have our application running with 50 [[Thread (Java)|threads]] and it needs to use a much slower more expensive service which allows only three concurrent threads to use it at a time
+- ![[Pasted image 20220930134849.png|400]]
+### Example Code
+See [[ExecutorService (Java)]], [[Runnable (Interface)(Java)]]
+``` Java
+public static void main(String [] args) throws InterruptedException {
+
+	Semaphore = semaphore = new Semaphore(3) # 3 permits
+	ExecutorService service = Executors.newFixedThreadPool(50);
+	IntStream.of(1000).forEach(i -> service.execute(new Task(semaphore)));
+	
+	service.shutdown();
+	service.awaitTermination(1,TimeUnit.MINUTES);
+}
+
+static class Task implements Runnable {
+
+	@Override
+	public void run(){
+	//some processing
+	semaphore.acquire(); # <- Only three threads can acquire others get blocked here
+	//semaphore.acquireUninterruptible(); # Use this if you don't want interrupt exceptoin to be thrown by acquire()
+	//IO Call to the slow service
+	semaphore.release();
+	}
+}
+```
+
+
+- With this example you'll see how there are more requests to acquire permits than permits being released, overtime this results in the number of permits running out
+```java
+@Slf4j
+@Component
+public class TestSemaphore {
+	private Semaphore gate;
+	public TestSemaphore(){
+		this.gate = new Semaphore(5, true);
+	}
+	@Async
+	@Scheduled(fixedRate = 1000)
+	public void test() throws InterruptedException {
+		log.info("Available permits: {}", this.gate.availablePermits());
+		if(this.gate.availablePermits() == 0){
+			log.warn("Failed to get permit");
+			return;
+		}
+		while(this.gate.tryAcquire()){
+			Thread.sleep(1000);
+			this.gate.release();
+			log.info("Done");
+			break;
+		}
+	}
+}
+```
+
+### Other Useful Methods
+![[Pasted image 20220930140001.png|600]]
+    
+
+
+### Testing for Race Conditions in Java
+[[Race Condition (Concurrent Programming)#Testing for Race Conditions in Java]]
+
+
