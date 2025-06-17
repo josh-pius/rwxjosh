@@ -37,7 +37,7 @@ public class CalculatorTest {
 
 ### Metadata
 2024-01-28 22:37
-- Used this at work today. Sonar required me to parameterize three tests where there was a lot of common code and only the arguments varied. 
+- Used this at today to parameterize three tests where there was a lot of common code and only the arguments varied. 
 - Instead of CSV source I used [[@MethodSource (JUnit)]] to provide a set of two arguments per test
 - Referred to this: https://www.baeldung.com/parameterized-tests-junit-5
 - My code looked something like this
