@@ -919,7 +919,7 @@ echo "$1"  \
 
 ### Replace Section With Markers With Contents of File 
 
-- Used this at work to swap the type of [[Apache Kafka]] container being used in my [[Docker Compose (Software)]] so that o could run it locally 
+- Used this to swap the type of [[Apache Kafka]] container being used in my [[Docker Compose (Software)]] so that o could run it locally 
 - The new line after the `r` command is intentional and it wouldn’t work without it
 
 ```bash
