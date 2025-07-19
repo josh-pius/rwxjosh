@@ -1,0 +1,38 @@
+### Computer Science's Biggest Mystery
+Source: https://youtu.be/rz1INSahE68?si=m0iPBkb-z6LJW6Me by [[PurpleMind (Youtuber)]]
+- Really good exposition on P vs NP
+- Can problems whose solutions can be verified in [[Polynomial (Mathematics)]] time be solved in polynomial time
+- Example
+	- Checking if a solution to a 2-coloring or 3-coloring graph problem is easy and can be done in polynomial time
+	- For 2-colorability you have algorithms that give you a solution in polynomial time as well, but no such solutions have been found for 3-coloring
+	- Same with [[Sudoku (Game)]], you can verify a solution quickly, but finding a solution is hard
+	- The P vs NP asks if whether being able to verify a problem in polynomial time allows us to also solve it in polynomial time
+		- If sets P = NP, It might be that a algo has to exists for problems like 3-coloring and sudoku that can solve it as trivailly as we can verify the solution
+- [[NP Complete (Computer Science)]] is a subset of the NP problems, [[Stephen Cook (Computer Scientist)]] showed that a polynomial type solution of an NP-complete problem would let you manufacture a polynomial time algorithm for any other NP problem
+- Over the years [[Stephen Cook (Computer Scientist)]] and [[Leonid Levin (Computer Scientist)]]  discovered the [[Boolean Satisfiability (Computer Science)]] problem which is NP-complete
+- Since then several [[NP Complete (Computer Science)]] problems have been found (1000s now)
+	- 0-1 Integer programming
+	- Set packing
+	- Vertex cover
+	- Set covering
+	- Feedback node set
+	- Feedback arc set
+	- Directed Hamilton circuit
+	- Undirected Hamilton cycle
+	- 3-SAT
+	- Graph coloring
+	- Clique cover
+	- Exact cover
+	- Hitting set
+	- Steiner tree
+	- 3-dimensional matching
+	- Knapsack
+	- Job sequencing
+	- Partition
+	- Max cut
+	- ...
+- The process for converting the solution of an NP-complete problem to the solution for another problem is called "reduction"
+- We still haven't found any solutions for NP-complete problems
+- P vs NP is a question about the nature of thought itself
+	- Is discovery fundamentally harder than recognition?
+	- If it is true a mathematician could be replaced by a machine, every proof could be found by a sufficiently clever algorithm

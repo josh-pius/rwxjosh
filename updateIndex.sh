@@ -169,6 +169,24 @@ echo "Regex.md" \
 >> index.md
 
 
+### Java
+echo "### Java" > "Java.md"
+
+ls \
+| grep -ie "(Java" -ie "(spring" \
+| sort -t '(' -k3,3n -k2,2r \
+| sed '/index.md/d' \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> "Java.md"
+
+echo "### Java" >> index.md
+echo "Java.md" \
+| sed 's/.md//g'  \
+| sed 's/.*/- [[&]]/' \
+>> index.md
+
+
 # ls \
 # | sort -t '(' -k3,3n -k2,2r \
 # | sed '/index.md/d' \
