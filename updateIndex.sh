@@ -173,7 +173,7 @@ echo "Regex.md" \
 echo "### Java" > "Java.md"
 
 ls \
-| grep -ie "(Java" -ie "(spring" \
+| grep -ie "(Java" -ie "(spring" -eiw "Java" \
 | sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
