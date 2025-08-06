@@ -5,13 +5,14 @@ title: Welcome to Rwxjosh
 ## About Me
 Hi, I'm Josh, a software engineer working in Finance, and this site is dedicated to learning in public.(see https://www.swyx.io/learn-in-public).
 
-If you're looking to partner with me or a potential employer please reach out to me via [LinkedIn](https://www.linkedin.com/in/joshpius41/)
+If you're looking to partner with me or a potential employer please reach out to me via [LinkedIn](https://www.linkedin.com/in/joshpius41/).
 Also see my [Github](https://github.com/josh-pius) for more info on projects I'm working on.
 
 
 ## Note-taking
 - Being an autodidact that loves to take notes, I've created almost >10k notes across various topics such as computer science, finance, mathematics, theology etc. While some might consider note-taking a poor use of time, I've come to see the fraility of my humanity and limitations of my memory and rely on software tools like Obsidian and Anki to help me process and memorize information.
-I've spent a lot of time collection and synthesizing information and though at first I was reluctant to make my notes public, I've been inspired by people like rwxrob (Robert Muhlestein) to let go of this scarcity mentality. Knowledge not freely shared is detrimental to society.
+
+- I've spent a lot of time collection and synthesizing information and though at first I was reluctant to make my notes public, I've been inspired by people like rwxrob (Robert Muhlestein) to let go of this scarcity mentality. Knowledge not freely shared is detrimental to society.
 
 - Sharing my notes brings with it several benefits, such as ease of sharability, I can give anyone a link to this site and let them read all about my thoughs on a topic.  It also allows me to showcase what I'm learning publicly, which I'm hoping helps me connect with like minded individuals things and even help me stand out to potential employers.
 
