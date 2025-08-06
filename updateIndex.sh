@@ -173,25 +173,25 @@ echo "Regex.md" \
 echo "### Java" > "Java.md"
 
 ls \
-| grep -ie "(Java" -ie "(spring"  \
-| sort -t '(' -k3,3n -k2,2r \
+| grep -e "(Java" -e "(Spring"  \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
+| sed -E '/Procee.*JoinPoint/d' \
 >> "Java.md"
 
 ls \
 | grep -wi "java" \
-| sort -t '(' -k3,3n -k2,2r \
 | sed '/index.md/d' \
 | sed 's/.md//g'  \
 | sed 's/.*/- [[&]]/' \
+| sed -E '/Procee.*JoinPoint/d' \
 >> "Java.md"
 
-cat "Java.md" \
-| sort \
-| uniq \
-> "Java.md"
+#cat "Java.md" \
+#| sort \
+#| uniq \
+#> "Java.md"
 
 echo "### Java" >> index.md
 echo "Java.md" \
