@@ -23,7 +23,7 @@ Doing this for all my old notes is pretty challenging so it's unlikely I'll get 
 
 
 ### Notes Statistics
-- Total Notes Count: 488
+- Total Notes Count: 487
 ### Books
 - [[Books]]
 ### Mathematics
