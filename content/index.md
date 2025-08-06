@@ -16,7 +16,7 @@ Also see my [Github](https://github.com/josh-pius) for more info on projects I'm
 
 - Sharing my notes brings with it several benefits, such as ease of sharability, I can give anyone a link to this site and let them read all about my thoughs on a topic.  It also allows me to showcase what I'm learning publicly, which I'm hoping helps me connect with like minded individuals and even stand out to potential employers.
 
-- With regard to my notes themselves, I try to maintain atomic notes, which means each of my notes tends to be about a single concept/idea but links to other ideas when they are referenced.  Each note grows organically, some of them are just empty placeholders for a concept I want to refer to in other notes, others are much more fleshed out with a lot of information.
+- With regard to the notes themselves, I try to keep them atomic, which means each of my notes tends to be about a single concept/idea but links to other ideas when they are referenced.  Each note grows organically, some of them are just empty placeholders for a concept I want to refer to in other notes, others are much more fleshed out with a lot of information.
 
 - You will not find all my notes here, I publish only a curated set of my notes after vetting it to ensure I'm not leaking any private information. 
 Doing this for all my old notes is pretty challenging so it's unlikely I'll get around to migrating the bulk of my notes in the near future.
