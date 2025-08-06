@@ -1,5 +1,6 @@
 ### Books
 - [[A Little Book of Semaphores (Book)]]
+- [[A Signal Processing Perspective on Financial Engineering (Book)]]
 - [[All of Statistics (Book)]]
 - [[An Introduction To Statistical Learning (Book)]]
 - [[Core Python Programming (Book)]]

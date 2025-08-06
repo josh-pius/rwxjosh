@@ -1,5 +1,6 @@
 ### Programming Language
 - [[APL (Programming Language)]]
+- [[Bash (Programming Language)]]
 - [[C (Programming Language)]]
 - [[Clojure (Programming Language)]]
 - [[Erlang (Programming Language)]]
@@ -14,5 +15,6 @@
 - [[Python (Programming Language)]]
 - [[Ruby (Programming Language)]]
 - [[Scheme (Programming Language)]]
+- [[Smalltalk (Programming Language)]]
 - [[Vimscript (Programming Language)]]
 - [[Zig (Programming Language)]]

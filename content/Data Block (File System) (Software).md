@@ -1,0 +1,4 @@
+### General
+- I wasn't able to find an official term for this so this note is just to refer to a concept that's mentioned in [[Operating Systems Three Easy Pieces (OSTEP) (Book)]]
+- File systems like the [[Unix FS (File System)]] and [[Fast File System (FFS) (Software)]] have blocks that store [[superblock (OS Concept)]], [[Allocation Bitmap (Filesystem) (OS Concept)]]/[[Free List (Data Structure)]] and blocks for [[Inode (Linux)|inodes]]
+- Apart from those it has blocks to store the actual content of files and even content of file or of the directory, the blocks intended to store this data are the data blocks

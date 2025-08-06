@@ -1,0 +1,8 @@
+### OSTEP: Aside on Durability-Performance Tradeoff
+Source: [[Operating Systems Three Easy Pieces (OSTEP) (Book)]] 
+- Storage systems often present a durability/performance trade-off to users. If the user wishes data that is written to be immediately durable, the system must go through the full effort of committing the newly-written data to disk, and thus the write is slow (but safe). 
+- However, if the user can tolerate the loss of a little data, the system can [[Write Buffering (OS Concept)|buffer writes]] in memory for some time and write them later to the disk (in the background). 
+	- Doing so makes writes appear to complete quickly, thus improving perceived performance; however, if a crash occurs, writes not yet committed to disk will be lost, and hence the trade-off. 
+- To understand how to make this trade-off properly, it is best to understand what the application using the storage system requires; for example, while it may be tolerable to lose the last few images downloaded by your web browser, losing part of a database transaction that is adding money to your bank account may be less tolerable. 
+- Some applications (such as [[Database Management System (DBMS)|databases]]) don’t enjoy this trade-off. Thus, to avoid unexpected data loss due to write buffering, they simply force writes to disk, by calling [[fsync (System Call)]](), by using direct I/O interfaces that work around the cache, or by using the raw disk interface and avoiding the file system altogether. 
+- While most applications live with the trade- offs made by the file system, there are enough controls in place to get the system to do what you want it to, should the default not be satisfying.

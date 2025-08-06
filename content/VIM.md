@@ -11,6 +11,8 @@
 - [[Tabs (VIM)]]
 - [[Tags (VIM)]]
 - [[Window (VIM)]]
+- [[key-notation (VIM)]]
+- [[makeprg (VIM)]]
 - [[packpath (VIM)]]
 - [[runtimepath (VIM)]]
 - [[VIM (Editor)]]

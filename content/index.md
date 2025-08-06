@@ -14,7 +14,7 @@ You will not find all my notes here, I publish only a subset of my notes based o
 
 
 ### Notes Statistics
-- Total Notes Count: 231
+- Total Notes Count: 468
 ### Books
 - [[Books]]
 ### Mathematics
@@ -33,3 +33,5 @@ You will not find all my notes here, I publish only a subset of my notes based o
 - [[Programming Language]]
 ### Regex
 - [[Regex]]
+### Java
+- [[Java]]
