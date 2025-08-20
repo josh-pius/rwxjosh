@@ -1,0 +1,5 @@
+### General
+- The principal minors of a matrix are the minors of the elements in the [[Main Diagonal (Linear Algebra)|Principle Diagonal (Linear Algebra)]], i.e., the elements which have the same row number and column number.
+	- Not sure if this is the standard definition since it doesn't seems to fit well with [[Leading Principal Minor (Linear Algebra)]]
+- Another way to think about it is it's the determinant of the submatrix ([[Minor (Linear Algebra)]]) when the same set of rows and columns are removed from the original matrix
+	- I just realized that this definition and the above one are same only when you're removing one element, they differ when you're removing more than one element. [[Leading Principal Minor (Linear Algebra)]] assuming a removing of multiple elements so the latter definition fits much better

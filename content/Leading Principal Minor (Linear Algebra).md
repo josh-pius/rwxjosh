@@ -1,0 +1,2 @@
+### General
+- The [[Determinant (Linear Algebra)]] of the submatrix formed by taking only the first k rows and k columns of the original matrix (i.e. the [[Leading Principal Submatrix (Linear Algebra)]] where $k$ ranges from 1 to the size of the matrix $n$
