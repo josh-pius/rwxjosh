@@ -1,0 +1,2 @@
+### General
+- In Java, "natural order" refers to the default sorting order for objects of a particular class. This default ordering is defined by the class itself when it implements the `java.lang.Comparable` ([[Comparable (Java)]]) interface.
